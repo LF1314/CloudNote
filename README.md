@@ -26,4 +26,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ![](https://user-gold-cdn.xitu.io/2018/9/29/16625838f91158c8?w=1536&h=791&f=png&s=155240)
 
+![](https://user-gold-cdn.xitu.io/2018/10/9/166561e901ec8c61?w=1824&h=907&f=png&s=944786)
+
 
