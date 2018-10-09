@@ -1,4 +1,4 @@
-//登录页
+//注册页
 <template>
     <div class="singupbody">
         <Header></Header>
