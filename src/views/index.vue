@@ -1,7 +1,7 @@
 <template>
     <div class="indexwraper">
         <Header></Header>
-        <section class="bodysection w1170">
+        <section class="bodysection w1170 ma60">
             <div class="bodyheader claerfix">
                 <div class="lunbo">
                  
@@ -144,7 +144,7 @@ export default {
 </script>
 <style scoped lang='scss'>
 .articleitem {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .articleitem:hover {
   cursor: pointer;
@@ -182,7 +182,7 @@ export default {
   .lunbo {
     float: left;
     height: 364px;
-    width: 800px;
+    width: 600px;
     border-radius: 5px;
     background-image: url("../../static/img/lunbo.jpg");
     background-size: 100%;
@@ -213,7 +213,7 @@ export default {
   width: 100%;
   background: #fff;
   ul {
-    padding: 10px;
+    padding: 20px;
   }
   .avatarimg {
     float: left;

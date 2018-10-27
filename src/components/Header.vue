@@ -29,6 +29,11 @@ export default {
 
 <style scoped lang='scss'>
 .noteheader {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #409eff;
 }
 .inner {

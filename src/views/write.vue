@@ -1,7 +1,7 @@
 <template>
     <div class="writenote">
         <Header></Header>
-        <section class="writewrpaer w1170">
+        <section class="writewrpaer w1170 ma60">
            <div class="writeinner">
                 <div >
                     <h3>标题</h3>
@@ -56,7 +56,7 @@ export default {
       this.$axios.post("/article", this.fordata).then(res => {
         if (res.data.code == 200) {
           this.$message.success({ message: res.data.msg + "正在前往首页" });
-          setTimeout(() => this.$router.push("/"), 500);
+          setTimeout(() => this.$router.push("/"), 800);
         } else {
           this.$confirm(
             res.data.msg + "即将前往登录页面，是否保存文本",
@@ -160,7 +160,7 @@ export default {
   background-color: #f3f3f3;
 }
 .writewrpaer {
-  padding: 20px;
+  padding-top: 60px;
 }
 .writeinner {
   width: 900px;

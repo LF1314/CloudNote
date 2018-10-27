@@ -3,7 +3,7 @@
     <div class="singupbody">
         <Header></Header>
         
-        <div class="loginwraper">
+        <div class="loginwraper ma60">
           <div class="avatarimg">
           <el-upload
            :data = 'obj'
@@ -106,11 +106,12 @@ export default {
 .singupbody {
   background-color: #f2f2f2;
   height: 100%;
+  padding-top: 30px;
 }
 .loginwraper {
   width: 400px;
-  margin: 50px auto;
-  padding: 50px;
+  margin: 40px auto;
+  padding: 40px;
   background-color: #fff;
   border-radius: 5px;
 }

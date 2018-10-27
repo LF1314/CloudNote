@@ -1,7 +1,7 @@
 <template>
     <div class="readarticle">
      <Header></Header>
-     <section class="articlewraper w1170">
+     <section class="articlewraper w1170 ma60">
            <div class="inner">
                 <div class="nav">
                     <div class="userimg" v-if="articl.avatar">

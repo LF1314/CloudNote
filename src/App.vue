@@ -31,10 +31,13 @@ export default {
   width: 100%;
 }
 .w1170 {
-  width: 1170px;
+  width: 960px;
   margin: 0 auto;
 }
 li {
   list-style: none;
+}
+.ma60{
+  padding-top: 30px;
 }
 </style>
